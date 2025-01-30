@@ -1,10 +1,10 @@
-<h1>Roll some dice!</h1>
+<h1>Dice Roll</h1>
 
 
-<form action="/process_rolls">
-  <p><label for="dice_input">Number of dice: </label>
-  <input type="text" id="dice_input" name="dice"></p>
-  <p><label for="rolls_input">Number of rolls: </label>
-  <input type="text" id="rolls_input" name="rolls"></p>
-  <button>Submit</button>
+<form action="/process_roll">
+  <label for="dice_input">Number of dice to roll?</label>
+  <input type="text" id="dice_input" name="dice">
+  <label for="sides_input">How many sides per die?</label>
+  <input type="text" id="sides_input" name="sides">
+  <button>Roll!</button>
 </form>
